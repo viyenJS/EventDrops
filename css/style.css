@@ -3,23 +3,29 @@
     cursor: pointer;
 }
 
-.y-axis path,
-.y-axis line,
-.x-axis path,
-.x-axis line,
-{
-    path,
-    line {
-        stroke: black;
-        fill: none;
-        stroke-width: 1px;
-    }
+.axes {
+    position: relative;
 }
 
-.y-axis g line {
-    stroke: grey;
+.line-separator, .x-axis
+{
+    stroke: black;
     fill: none;
     stroke-width: 1px;
+}
+
+.line-separator:last-child {
+    display: none;
+}
+
+.x-axis {
+    position: absolute;
+    z-index: 50;
+}
+
+text {
+    stroke: none;
+    fill: black;
 }
 
 .graph-body .line {
