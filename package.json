@@ -5,7 +5,7 @@
   "main": "dist/eventDrops.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marmelab/EventDrops"
+    "url": "https://github.com/viyenJS/EventDrops.git"
   },
   "dependencies": {
     "d3": "3.5.3"
