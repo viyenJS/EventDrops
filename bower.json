@@ -6,7 +6,7 @@
     "ThieryMichel <thiery@marmelab.com>"
   ],
   "description": "A time based / event series interactive visualization using d3.js.",
-  "main": "src/eventDrops.js",
+  "main": "dist/eventDrops.js",
   "keywords": [
     "d3",
     "chart",
